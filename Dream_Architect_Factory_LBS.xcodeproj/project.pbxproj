@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F11C47FF1ECC9D96008FBAA3 /* AbsAppleComputerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F11C47FE1ECC9D96008FBAA3 /* AbsAppleComputerFactory.m */; };
+		F11C48021ECC9DE0008FBAA3 /* AbsAppleComputerCpu.m in Sources */ = {isa = PBXBuildFile; fileRef = F11C48011ECC9DE0008FBAA3 /* AbsAppleComputerCpu.m */; };
+		F11C48051ECC9E47008FBAA3 /* AbsAppleComputerDisplaycard.m in Sources */ = {isa = PBXBuildFile; fileRef = F11C48041ECC9E47008FBAA3 /* AbsAppleComputerDisplaycard.m */; };
+		F11C48081ECC9ED0008FBAA3 /* AbsLenovoComputerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F11C48071ECC9ED0008FBAA3 /* AbsLenovoComputerFactory.m */; };
+		F11C480B1ECC9F5F008FBAA3 /* AbsLenovoComputerCpu.m in Sources */ = {isa = PBXBuildFile; fileRef = F11C480A1ECC9F5F008FBAA3 /* AbsLenovoComputerCpu.m */; };
+		F11C480E1ECC9FCB008FBAA3 /* AbsLenovoComputerDisplaycard.m in Sources */ = {isa = PBXBuildFile; fileRef = F11C480D1ECC9FCB008FBAA3 /* AbsLenovoComputerDisplaycard.m */; };
+		F13FBD551EC9F5F0008EF141 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F13FBD541EC9F5F0008EF141 /* main.m */; };
+		F13FBD581EC9F5F0008EF141 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F13FBD571EC9F5F0008EF141 /* AppDelegate.m */; };
+		F13FBD5B1EC9F5F0008EF141 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13FBD5A1EC9F5F0008EF141 /* ViewController.m */; };
+		F13FBD5E1EC9F5F0008EF141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13FBD5C1EC9F5F0008EF141 /* Main.storyboard */; };
+		F13FBD611EC9F5F0008EF141 /* Dream_Architect_Factory_LBS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F13FBD5F1EC9F5F0008EF141 /* Dream_Architect_Factory_LBS.xcdatamodeld */; };
+		F13FBD631EC9F5F0008EF141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13FBD621EC9F5F0008EF141 /* Assets.xcassets */; };
+		F13FBD661EC9F5F0008EF141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13FBD641EC9F5F0008EF141 /* LaunchScreen.storyboard */; };
+		F13FBD711EC9F5F0008EF141 /* Dream_Architect_Factory_LBSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F13FBD701EC9F5F0008EF141 /* Dream_Architect_Factory_LBSTests.m */; };
+		F13FBD7C1EC9F5F0008EF141 /* Dream_Architect_Factory_LBSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F13FBD7B1EC9F5F0008EF141 /* Dream_Architect_Factory_LBSUITests.m */; };
+		F13FBD9A1EC9F71D008EF141 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13FBD991EC9F71D008EF141 /* CoreLocation.framework */; };
+		F13FBD9C1EC9F721008EF141 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13FBD9B1EC9F721008EF141 /* QuartzCore.framework */; };
+		F13FBD9E1EC9F725008EF141 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13FBD9D1EC9F725008EF141 /* OpenGLES.framework */; };
+		F13FBDA01EC9F72A008EF141 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13FBD9F1EC9F72A008EF141 /* SystemConfiguration.framework */; };
+		F13FBDA21EC9F730008EF141 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13FBDA11EC9F730008EF141 /* CoreGraphics.framework */; };
+		F13FBDA41EC9F735008EF141 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13FBDA31EC9F735008EF141 /* Security.framework */; };
+		F13FBDA61EC9F73A008EF141 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F13FBDA51EC9F73A008EF141 /* libsqlite3.0.tbd */; };
+		F13FBDA81EC9F742008EF141 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13FBDA71EC9F742008EF141 /* CoreTelephony.framework */; };
+		F13FBDAA1EC9F748008EF141 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F13FBDA91EC9F748008EF141 /* libstdc++.6.0.9.tbd */; };
+		F13FBDB81EC9F9EE008EF141 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13FBDB71EC9F9EE008EF141 /* AdSupport.framework */; };
+		F13FBDBA1EC9F9F3008EF141 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13FBDB91EC9F9F3008EF141 /* JavaScriptCore.framework */; };
+		F13FBDBC1EC9F9FF008EF141 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F13FBDBB1EC9F9FF008EF141 /* libz.tbd */; };
+		F13FBDBE1EC9FA0B008EF141 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F13FBDBD1EC9FA0B008EF141 /* libc++.tbd */; };
+		F1731A2B1ECC83B1008D5567 /* AppleComputerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F1731A2A1ECC83B1008D5567 /* AppleComputerFactory.m */; };
+		F1731A2E1ECC83F9008D5567 /* AppleComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = F1731A2D1ECC83F9008D5567 /* AppleComputer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F13FBD6D1EC9F5F0008EF141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F13FBD481EC9F5F0008EF141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F13FBD4F1EC9F5F0008EF141;
+			remoteInfo = Dream_Architect_Factory_LBS;
+		};
+		F13FBD781EC9F5F0008EF141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F13FBD481EC9F5F0008EF141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F13FBD4F1EC9F5F0008EF141;
+			remoteInfo = Dream_Architect_Factory_LBS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F11C47F61ECC9C61008FBAA3 /* AbsComputerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbsComputerFactory.h; path = Simple/AbsComputerFactory.h; sourceTree = "<group>"; };
+		F11C47F71ECC9C85008FBAA3 /* AbsComputerCpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbsComputerCpu.h; path = Simple/AbsComputerCpu.h; sourceTree = "<group>"; };
+		F11C47F81ECC9CD4008FBAA3 /* AbsComputerDisplaycard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbsComputerDisplaycard.h; path = Simple/AbsComputerDisplaycard.h; sourceTree = "<group>"; };
+		F11C47FD1ECC9D96008FBAA3 /* AbsAppleComputerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbsAppleComputerFactory.h; path = Simple/impl/apple/AbsAppleComputerFactory.h; sourceTree = "<group>"; };
+		F11C47FE1ECC9D96008FBAA3 /* AbsAppleComputerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbsAppleComputerFactory.m; path = Simple/impl/apple/AbsAppleComputerFactory.m; sourceTree = "<group>"; };
+		F11C48001ECC9DE0008FBAA3 /* AbsAppleComputerCpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbsAppleComputerCpu.h; path = Simple/impl/apple/AbsAppleComputerCpu.h; sourceTree = "<group>"; };
+		F11C48011ECC9DE0008FBAA3 /* AbsAppleComputerCpu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbsAppleComputerCpu.m; path = Simple/impl/apple/AbsAppleComputerCpu.m; sourceTree = "<group>"; };
+		F11C48031ECC9E47008FBAA3 /* AbsAppleComputerDisplaycard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbsAppleComputerDisplaycard.h; path = Simple/impl/apple/AbsAppleComputerDisplaycard.h; sourceTree = "<group>"; };
+		F11C48041ECC9E47008FBAA3 /* AbsAppleComputerDisplaycard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbsAppleComputerDisplaycard.m; path = Simple/impl/apple/AbsAppleComputerDisplaycard.m; sourceTree = "<group>"; };
+		F11C48061ECC9ED0008FBAA3 /* AbsLenovoComputerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbsLenovoComputerFactory.h; path = Simple/impl/lenovo/AbsLenovoComputerFactory.h; sourceTree = "<group>"; };
+		F11C48071ECC9ED0008FBAA3 /* AbsLenovoComputerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbsLenovoComputerFactory.m; path = Simple/impl/lenovo/AbsLenovoComputerFactory.m; sourceTree = "<group>"; };
+		F11C48091ECC9F5F008FBAA3 /* AbsLenovoComputerCpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbsLenovoComputerCpu.h; path = Simple/impl/lenovo/AbsLenovoComputerCpu.h; sourceTree = "<group>"; };
+		F11C480A1ECC9F5F008FBAA3 /* AbsLenovoComputerCpu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbsLenovoComputerCpu.m; path = Simple/impl/lenovo/AbsLenovoComputerCpu.m; sourceTree = "<group>"; };
+		F11C480C1ECC9FCB008FBAA3 /* AbsLenovoComputerDisplaycard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbsLenovoComputerDisplaycard.h; path = Simple/impl/lenovo/AbsLenovoComputerDisplaycard.h; sourceTree = "<group>"; };
+		F11C480D1ECC9FCB008FBAA3 /* AbsLenovoComputerDisplaycard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbsLenovoComputerDisplaycard.m; path = Simple/impl/lenovo/AbsLenovoComputerDisplaycard.m; sourceTree = "<group>"; };
+		F13FBD501EC9F5F0008EF141 /* Dream_Architect_Factory_LBS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dream_Architect_Factory_LBS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13FBD541EC9F5F0008EF141 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F13FBD561EC9F5F0008EF141 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F13FBD571EC9F5F0008EF141 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F13FBD591EC9F5F0008EF141 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F13FBD5A1EC9F5F0008EF141 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F13FBD5D1EC9F5F0008EF141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F13FBD601EC9F5F0008EF141 /* Dream_Architect_Factory_LBS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dream_Architect_Factory_LBS.xcdatamodel; sourceTree = "<group>"; };
+		F13FBD621EC9F5F0008EF141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F13FBD651EC9F5F0008EF141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F13FBD671EC9F5F0008EF141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13FBD6C1EC9F5F0008EF141 /* Dream_Architect_Factory_LBSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dream_Architect_Factory_LBSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13FBD701EC9F5F0008EF141 /* Dream_Architect_Factory_LBSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dream_Architect_Factory_LBSTests.m; sourceTree = "<group>"; };
+		F13FBD721EC9F5F0008EF141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13FBD771EC9F5F0008EF141 /* Dream_Architect_Factory_LBSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dream_Architect_Factory_LBSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13FBD7B1EC9F5F0008EF141 /* Dream_Architect_Factory_LBSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dream_Architect_Factory_LBSUITests.m; sourceTree = "<group>"; };
+		F13FBD7D1EC9F5F0008EF141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13FBD991EC9F71D008EF141 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F13FBD9B1EC9F721008EF141 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F13FBD9D1EC9F725008EF141 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F13FBD9F1EC9F72A008EF141 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F13FBDA11EC9F730008EF141 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F13FBDA31EC9F735008EF141 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F13FBDA51EC9F73A008EF141 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		F13FBDA71EC9F742008EF141 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F13FBDA91EC9F748008EF141 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		F13FBDB71EC9F9EE008EF141 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		F13FBDB91EC9F9F3008EF141 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F13FBDBB1EC9F9FF008EF141 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F13FBDBD1EC9FA0B008EF141 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F1731A261ECC82BC008D5567 /* IComputerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IComputerFactory.h; path = Simple/IComputerFactory.h; sourceTree = "<group>"; };
+		F1731A271ECC82E5008D5567 /* IComputer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IComputer.h; path = Simple/IComputer.h; sourceTree = "<group>"; };
+		F1731A291ECC83B1008D5567 /* AppleComputerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppleComputerFactory.h; path = Simple/impl/AppleComputerFactory.h; sourceTree = "<group>"; };
+		F1731A2A1ECC83B1008D5567 /* AppleComputerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppleComputerFactory.m; path = Simple/impl/AppleComputerFactory.m; sourceTree = "<group>"; };
+		F1731A2C1ECC83F9008D5567 /* AppleComputer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppleComputer.h; path = Simple/impl/AppleComputer.h; sourceTree = "<group>"; };
+		F1731A2D1ECC83F9008D5567 /* AppleComputer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppleComputer.m; path = Simple/impl/AppleComputer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F13FBD4D1EC9F5F0008EF141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13FBDBE1EC9FA0B008EF141 /* libc++.tbd in Frameworks */,
+				F13FBDBC1EC9F9FF008EF141 /* libz.tbd in Frameworks */,
+				F13FBDBA1EC9F9F3008EF141 /* JavaScriptCore.framework in Frameworks */,
+				F13FBDB81EC9F9EE008EF141 /* AdSupport.framework in Frameworks */,
+				F13FBDAA1EC9F748008EF141 /* libstdc++.6.0.9.tbd in Frameworks */,
+				F13FBDA81EC9F742008EF141 /* CoreTelephony.framework in Frameworks */,
+				F13FBDA61EC9F73A008EF141 /* libsqlite3.0.tbd in Frameworks */,
+				F13FBDA41EC9F735008EF141 /* Security.framework in Frameworks */,
+				F13FBDA21EC9F730008EF141 /* CoreGraphics.framework in Frameworks */,
+				F13FBDA01EC9F72A008EF141 /* SystemConfiguration.framework in Frameworks */,
+				F13FBD9E1EC9F725008EF141 /* OpenGLES.framework in Frameworks */,
+				F13FBD9C1EC9F721008EF141 /* QuartzCore.framework in Frameworks */,
+				F13FBD9A1EC9F71D008EF141 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13FBD691EC9F5F0008EF141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13FBD741EC9F5F0008EF141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F11C47F41ECC9C2C008FBAA3 /* FactoryAbs(抽象) */ = {
+			isa = PBXGroup;
+			children = (
+				F11C47F51ECC9C30008FBAA3 /* Simple */,
+			);
+			name = "FactoryAbs(抽象)";
+			path = FactoryAbs;
+			sourceTree = "<group>";
+		};
+		F11C47F51ECC9C30008FBAA3 /* Simple */ = {
+			isa = PBXGroup;
+			children = (
+				F11C47FA1ECC9CFE008FBAA3 /* impl */,
+				F11C47F61ECC9C61008FBAA3 /* AbsComputerFactory.h */,
+				F11C47F71ECC9C85008FBAA3 /* AbsComputerCpu.h */,
+				F11C47F81ECC9CD4008FBAA3 /* AbsComputerDisplaycard.h */,
+			);
+			name = Simple;
+			sourceTree = "<group>";
+		};
+		F11C47FA1ECC9CFE008FBAA3 /* impl */ = {
+			isa = PBXGroup;
+			children = (
+				F11C47FC1ECC9D09008FBAA3 /* lenovo */,
+				F11C47FB1ECC9D03008FBAA3 /* apple */,
+			);
+			name = impl;
+			sourceTree = "<group>";
+		};
+		F11C47FB1ECC9D03008FBAA3 /* apple */ = {
+			isa = PBXGroup;
+			children = (
+				F11C47FD1ECC9D96008FBAA3 /* AbsAppleComputerFactory.h */,
+				F11C47FE1ECC9D96008FBAA3 /* AbsAppleComputerFactory.m */,
+				F11C48001ECC9DE0008FBAA3 /* AbsAppleComputerCpu.h */,
+				F11C48011ECC9DE0008FBAA3 /* AbsAppleComputerCpu.m */,
+				F11C48031ECC9E47008FBAA3 /* AbsAppleComputerDisplaycard.h */,
+				F11C48041ECC9E47008FBAA3 /* AbsAppleComputerDisplaycard.m */,
+			);
+			name = apple;
+			sourceTree = "<group>";
+		};
+		F11C47FC1ECC9D09008FBAA3 /* lenovo */ = {
+			isa = PBXGroup;
+			children = (
+				F11C48061ECC9ED0008FBAA3 /* AbsLenovoComputerFactory.h */,
+				F11C48071ECC9ED0008FBAA3 /* AbsLenovoComputerFactory.m */,
+				F11C48091ECC9F5F008FBAA3 /* AbsLenovoComputerCpu.h */,
+				F11C480A1ECC9F5F008FBAA3 /* AbsLenovoComputerCpu.m */,
+				F11C480C1ECC9FCB008FBAA3 /* AbsLenovoComputerDisplaycard.h */,
+				F11C480D1ECC9FCB008FBAA3 /* AbsLenovoComputerDisplaycard.m */,
+			);
+			name = lenovo;
+			sourceTree = "<group>";
+		};
+		F13FBD471EC9F5F0008EF141 = {
+			isa = PBXGroup;
+			children = (
+				F13FBD521EC9F5F0008EF141 /* Dream_Architect_Factory_LBS */,
+				F13FBD6F1EC9F5F0008EF141 /* Dream_Architect_Factory_LBSTests */,
+				F13FBD7A1EC9F5F0008EF141 /* Dream_Architect_Factory_LBSUITests */,
+				F13FBD511EC9F5F0008EF141 /* Products */,
+				F13FBD981EC9F71D008EF141 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F13FBD511EC9F5F0008EF141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F13FBD501EC9F5F0008EF141 /* Dream_Architect_Factory_LBS.app */,
+				F13FBD6C1EC9F5F0008EF141 /* Dream_Architect_Factory_LBSTests.xctest */,
+				F13FBD771EC9F5F0008EF141 /* Dream_Architect_Factory_LBSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F13FBD521EC9F5F0008EF141 /* Dream_Architect_Factory_LBS */ = {
+			isa = PBXGroup;
+			children = (
+				F11C47F41ECC9C2C008FBAA3 /* FactoryAbs(抽象) */,
+				F1731A241ECC829E008D5567 /* FactoryMethod(简单工场) */,
+				F13FBD561EC9F5F0008EF141 /* AppDelegate.h */,
+				F13FBD571EC9F5F0008EF141 /* AppDelegate.m */,
+				F13FBD591EC9F5F0008EF141 /* ViewController.h */,
+				F13FBD5A1EC9F5F0008EF141 /* ViewController.m */,
+				F13FBD5C1EC9F5F0008EF141 /* Main.storyboard */,
+				F13FBD621EC9F5F0008EF141 /* Assets.xcassets */,
+				F13FBD641EC9F5F0008EF141 /* LaunchScreen.storyboard */,
+				F13FBD671EC9F5F0008EF141 /* Info.plist */,
+				F13FBD5F1EC9F5F0008EF141 /* Dream_Architect_Factory_LBS.xcdatamodeld */,
+				F13FBD531EC9F5F0008EF141 /* Supporting Files */,
+			);
+			path = Dream_Architect_Factory_LBS;
+			sourceTree = "<group>";
+		};
+		F13FBD531EC9F5F0008EF141 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F13FBD541EC9F5F0008EF141 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F13FBD6F1EC9F5F0008EF141 /* Dream_Architect_Factory_LBSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F13FBD701EC9F5F0008EF141 /* Dream_Architect_Factory_LBSTests.m */,
+				F13FBD721EC9F5F0008EF141 /* Info.plist */,
+			);
+			path = Dream_Architect_Factory_LBSTests;
+			sourceTree = "<group>";
+		};
+		F13FBD7A1EC9F5F0008EF141 /* Dream_Architect_Factory_LBSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F13FBD7B1EC9F5F0008EF141 /* Dream_Architect_Factory_LBSUITests.m */,
+				F13FBD7D1EC9F5F0008EF141 /* Info.plist */,
+			);
+			path = Dream_Architect_Factory_LBSUITests;
+			sourceTree = "<group>";
+		};
+		F13FBD981EC9F71D008EF141 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F13FBDBD1EC9FA0B008EF141 /* libc++.tbd */,
+				F13FBDBB1EC9F9FF008EF141 /* libz.tbd */,
+				F13FBDB91EC9F9F3008EF141 /* JavaScriptCore.framework */,
+				F13FBDB71EC9F9EE008EF141 /* AdSupport.framework */,
+				F13FBDA91EC9F748008EF141 /* libstdc++.6.0.9.tbd */,
+				F13FBDA71EC9F742008EF141 /* CoreTelephony.framework */,
+				F13FBDA51EC9F73A008EF141 /* libsqlite3.0.tbd */,
+				F13FBDA31EC9F735008EF141 /* Security.framework */,
+				F13FBDA11EC9F730008EF141 /* CoreGraphics.framework */,
+				F13FBD9F1EC9F72A008EF141 /* SystemConfiguration.framework */,
+				F13FBD9D1EC9F725008EF141 /* OpenGLES.framework */,
+				F13FBD9B1EC9F721008EF141 /* QuartzCore.framework */,
+				F13FBD991EC9F71D008EF141 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1731A241ECC829E008D5567 /* FactoryMethod(简单工场) */ = {
+			isa = PBXGroup;
+			children = (
+				F1731A251ECC82A3008D5567 /* Simple */,
+			);
+			name = "FactoryMethod(简单工场)";
+			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		F1731A251ECC82A3008D5567 /* Simple */ = {
+			isa = PBXGroup;
+			children = (
+				F1731A281ECC8396008D5567 /* impl */,
+				F1731A261ECC82BC008D5567 /* IComputerFactory.h */,
+				F1731A271ECC82E5008D5567 /* IComputer.h */,
+			);
+			name = Simple;
+			sourceTree = "<group>";
+		};
+		F1731A281ECC8396008D5567 /* impl */ = {
+			isa = PBXGroup;
+			children = (
+				F1731A291ECC83B1008D5567 /* AppleComputerFactory.h */,
+				F1731A2A1ECC83B1008D5567 /* AppleComputerFactory.m */,
+				F1731A2C1ECC83F9008D5567 /* AppleComputer.h */,
+				F1731A2D1ECC83F9008D5567 /* AppleComputer.m */,
+			);
+			name = impl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F13FBD4F1EC9F5F0008EF141 /* Dream_Architect_Factory_LBS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13FBD801EC9F5F0008EF141 /* Build configuration list for PBXNativeTarget "Dream_Architect_Factory_LBS" */;
+			buildPhases = (
+				F13FBD4C1EC9F5F0008EF141 /* Sources */,
+				F13FBD4D1EC9F5F0008EF141 /* Frameworks */,
+				F13FBD4E1EC9F5F0008EF141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dream_Architect_Factory_LBS;
+			productName = Dream_Architect_Factory_LBS;
+			productReference = F13FBD501EC9F5F0008EF141 /* Dream_Architect_Factory_LBS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F13FBD6B1EC9F5F0008EF141 /* Dream_Architect_Factory_LBSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13FBD831EC9F5F0008EF141 /* Build configuration list for PBXNativeTarget "Dream_Architect_Factory_LBSTests" */;
+			buildPhases = (
+				F13FBD681EC9F5F0008EF141 /* Sources */,
+				F13FBD691EC9F5F0008EF141 /* Frameworks */,
+				F13FBD6A1EC9F5F0008EF141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F13FBD6E1EC9F5F0008EF141 /* PBXTargetDependency */,
+			);
+			name = Dream_Architect_Factory_LBSTests;
+			productName = Dream_Architect_Factory_LBSTests;
+			productReference = F13FBD6C1EC9F5F0008EF141 /* Dream_Architect_Factory_LBSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F13FBD761EC9F5F0008EF141 /* Dream_Architect_Factory_LBSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13FBD861EC9F5F0008EF141 /* Build configuration list for PBXNativeTarget "Dream_Architect_Factory_LBSUITests" */;
+			buildPhases = (
+				F13FBD731EC9F5F0008EF141 /* Sources */,
+				F13FBD741EC9F5F0008EF141 /* Frameworks */,
+				F13FBD751EC9F5F0008EF141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F13FBD791EC9F5F0008EF141 /* PBXTargetDependency */,
+			);
+			name = Dream_Architect_Factory_LBSUITests;
+			productName = Dream_Architect_Factory_LBSUITests;
+			productReference = F13FBD771EC9F5F0008EF141 /* Dream_Architect_Factory_LBSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F13FBD481EC9F5F0008EF141 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Tz;
+				TargetAttributes = {
+					F13FBD4F1EC9F5F0008EF141 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					F13FBD6B1EC9F5F0008EF141 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F13FBD4F1EC9F5F0008EF141;
+					};
+					F13FBD761EC9F5F0008EF141 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F13FBD4F1EC9F5F0008EF141;
+					};
+				};
+			};
+			buildConfigurationList = F13FBD4B1EC9F5F0008EF141 /* Build configuration list for PBXProject "Dream_Architect_Factory_LBS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F13FBD471EC9F5F0008EF141;
+			productRefGroup = F13FBD511EC9F5F0008EF141 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F13FBD4F1EC9F5F0008EF141 /* Dream_Architect_Factory_LBS */,
+				F13FBD6B1EC9F5F0008EF141 /* Dream_Architect_Factory_LBSTests */,
+				F13FBD761EC9F5F0008EF141 /* Dream_Architect_Factory_LBSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F13FBD4E1EC9F5F0008EF141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13FBD661EC9F5F0008EF141 /* LaunchScreen.storyboard in Resources */,
+				F13FBD631EC9F5F0008EF141 /* Assets.xcassets in Resources */,
+				F13FBD5E1EC9F5F0008EF141 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13FBD6A1EC9F5F0008EF141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13FBD751EC9F5F0008EF141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F13FBD4C1EC9F5F0008EF141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11C48081ECC9ED0008FBAA3 /* AbsLenovoComputerFactory.m in Sources */,
+				F11C480B1ECC9F5F008FBAA3 /* AbsLenovoComputerCpu.m in Sources */,
+				F13FBD5B1EC9F5F0008EF141 /* ViewController.m in Sources */,
+				F11C48051ECC9E47008FBAA3 /* AbsAppleComputerDisplaycard.m in Sources */,
+				F13FBD581EC9F5F0008EF141 /* AppDelegate.m in Sources */,
+				F13FBD611EC9F5F0008EF141 /* Dream_Architect_Factory_LBS.xcdatamodeld in Sources */,
+				F1731A2E1ECC83F9008D5567 /* AppleComputer.m in Sources */,
+				F1731A2B1ECC83B1008D5567 /* AppleComputerFactory.m in Sources */,
+				F11C48021ECC9DE0008FBAA3 /* AbsAppleComputerCpu.m in Sources */,
+				F13FBD551EC9F5F0008EF141 /* main.m in Sources */,
+				F11C480E1ECC9FCB008FBAA3 /* AbsLenovoComputerDisplaycard.m in Sources */,
+				F11C47FF1ECC9D96008FBAA3 /* AbsAppleComputerFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13FBD681EC9F5F0008EF141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13FBD711EC9F5F0008EF141 /* Dream_Architect_Factory_LBSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13FBD731EC9F5F0008EF141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13FBD7C1EC9F5F0008EF141 /* Dream_Architect_Factory_LBSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F13FBD6E1EC9F5F0008EF141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F13FBD4F1EC9F5F0008EF141 /* Dream_Architect_Factory_LBS */;
+			targetProxy = F13FBD6D1EC9F5F0008EF141 /* PBXContainerItemProxy */;
+		};
+		F13FBD791EC9F5F0008EF141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F13FBD4F1EC9F5F0008EF141 /* Dream_Architect_Factory_LBS */;
+			targetProxy = F13FBD781EC9F5F0008EF141 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F13FBD5C1EC9F5F0008EF141 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13FBD5D1EC9F5F0008EF141 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F13FBD641EC9F5F0008EF141 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13FBD651EC9F5F0008EF141 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F13FBD7E1EC9F5F0008EF141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F13FBD7F1EC9F5F0008EF141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F13FBD811EC9F5F0008EF141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dream_Architect_Factory_LBS/Factory/libs/baidu",
+					"$(PROJECT_DIR)/Dream_Architect_Factory_LBS/Factory/libs/gaode",
+				);
+				INFOPLIST_FILE = Dream_Architect_Factory_LBS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dream_Architect_Factory_LBS/Factory/libs/baidu/thirdlibs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tz.architect.lbs.Dream-Architect-Factory-LBS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F13FBD821EC9F5F0008EF141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dream_Architect_Factory_LBS/Factory/libs/baidu",
+					"$(PROJECT_DIR)/Dream_Architect_Factory_LBS/Factory/libs/gaode",
+				);
+				INFOPLIST_FILE = Dream_Architect_Factory_LBS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dream_Architect_Factory_LBS/Factory/libs/baidu/thirdlibs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tz.architect.lbs.Dream-Architect-Factory-LBS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F13FBD841EC9F5F0008EF141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Dream_Architect_Factory_LBSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tz.architect.lbs.Dream-Architect-Factory-LBSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dream_Architect_Factory_LBS.app/Dream_Architect_Factory_LBS";
+			};
+			name = Debug;
+		};
+		F13FBD851EC9F5F0008EF141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Dream_Architect_Factory_LBSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tz.architect.lbs.Dream-Architect-Factory-LBSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dream_Architect_Factory_LBS.app/Dream_Architect_Factory_LBS";
+			};
+			name = Release;
+		};
+		F13FBD871EC9F5F0008EF141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Dream_Architect_Factory_LBSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tz.architect.lbs.Dream-Architect-Factory-LBSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Dream_Architect_Factory_LBS;
+			};
+			name = Debug;
+		};
+		F13FBD881EC9F5F0008EF141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Dream_Architect_Factory_LBSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tz.architect.lbs.Dream-Architect-Factory-LBSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Dream_Architect_Factory_LBS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F13FBD4B1EC9F5F0008EF141 /* Build configuration list for PBXProject "Dream_Architect_Factory_LBS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13FBD7E1EC9F5F0008EF141 /* Debug */,
+				F13FBD7F1EC9F5F0008EF141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13FBD801EC9F5F0008EF141 /* Build configuration list for PBXNativeTarget "Dream_Architect_Factory_LBS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13FBD811EC9F5F0008EF141 /* Debug */,
+				F13FBD821EC9F5F0008EF141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13FBD831EC9F5F0008EF141 /* Build configuration list for PBXNativeTarget "Dream_Architect_Factory_LBSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13FBD841EC9F5F0008EF141 /* Debug */,
+				F13FBD851EC9F5F0008EF141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13FBD861EC9F5F0008EF141 /* Build configuration list for PBXNativeTarget "Dream_Architect_Factory_LBSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13FBD871EC9F5F0008EF141 /* Debug */,
+				F13FBD881EC9F5F0008EF141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F13FBD5F1EC9F5F0008EF141 /* Dream_Architect_Factory_LBS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F13FBD601EC9F5F0008EF141 /* Dream_Architect_Factory_LBS.xcdatamodel */,
+			);
+			currentVersion = F13FBD601EC9F5F0008EF141 /* Dream_Architect_Factory_LBS.xcdatamodel */;
+			path = Dream_Architect_Factory_LBS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F13FBD481EC9F5F0008EF141 /* Project object */;
+}
